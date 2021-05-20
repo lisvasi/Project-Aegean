@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+      <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+      <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+      <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+           
+      <title>VISIT AEGEAN</title>
+
+      <script src="vendors/js/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+      <script src="vendors/js/bootstrap.min.js"></script>
+      <script src="resources/js/script.js"></script>
+     
+  </head>
+
+  <body>   
+    <header class="header">
+        <div class="container">  
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand"  href="#">Visit AEGEAN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#middle">Islands</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#bottom">contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>   
+        </div>     
+        <div class="text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">HAPPINESS IS HIDDEN </span>
+                <span class="heading-primary-sub">IN AEGEAN</span>
+            </h1>
+        </div>
+    </header>
+    
+    <main>
+      <section id="top" class="about-us">
+          <div class="center-text">
+              <h2 class="heading-secondary">
+                Welcome to Aegean
+              </h2>
+          </div>
+
+          <div class="section">
+              <div class="space">
+                  <h3 class="heading-third">Our tours</h3>
+                  <p class="paragraph">Visit Aegean! Experience the most unique holidays in Greece by discovering our beautiful islands. Οn Santorini, 
+                     Mykonos and Paros in these islands, we design all day tours. Our tours are not cookie-cutter approaches! Let us create together 
+                     your own schedule and choose from these islands the one you wish to see! Join us and discover the classical and hidden gems of Greece, sample excellent
+                     local food and immerse yourselves in the Greek culture and lifestyle all in a wonderfull tour around the island.</p>
+              </div>
+          </div>
+      </section>
+
+      <section id="middle" class="islands">
+        <div class="container-cards">
+          <div class="heading-cards">
+            <h1>OUR DESTINATIONS</h1>
+          </div>
+          <div class="row-cards">
+            <div class="col span-1-of-3 card">
+              <div class="card-header">
+                <h1>Mykonos</h1>
+              </div>
+              <div class="card-body box">
+                <img src="resources/img/little-venice-mykonos.jpg" alt="mykonos">
+                <p>
+                  The island of the winds. beautiful place with the best beaches in Aegean. A unique island.
+                </p>
+                <a href="#" class="btn">Read more</a>
+              </div>
+            </div>
+            <div class="col span-1-of-3 card">
+              <div class="card-header">
+                <h1>Santorini</h1>
+              </div>
+              <div class="card-body box">
+                <img src="resources/img/santorini-city.jpg" alt="sadorini">
+                <p>
+                  The island with a valcano. The best place to watch a sunset. It deserves to visit at least once.
+                </p>
+                <a href="#" class="btn">Read more</a>
+              </div>
+            </div>
+            <div class="col span-1-of-3 card">
+              <div class="card-header">
+                <h1>Paros</h1>
+              </div>
+              <div class="card-body box">
+                <img src="resources/img/paros.jpg" alt="paros">
+                <p>
+                  The island with a church that has 100 doors. It's more tradional island with it's own beauty.
+                </p>
+                <a href="#" class="btn">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="bottom" class="form2">
+        <div class="wrapper1">
+          <h2>Contact us</h2>
+          <div id="error_message"></div>
+          <form action="" id="myform" onsubmit = "return validate();">
+            <div class="input_field">
+                <input type="text" placeholder="Firstname" id="firstname">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Lastname" id="lastname">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+                <textarea placeholder="Message" id="message"></textarea>
+            </div>
+            <div class="btn1">
+                <input type="submit" value="submit">
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>  
+
+    <footer>
+          <div class="row">
+              <div class="col span-1-of-2">
+                  <ul class="footer-nav">
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Press</a></li>
+                  </ul>
+              </div>
+              <div class="col span-1-of-2">
+                  <ul class="social-links">
+                      <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                      <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                      <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                      <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                  </ul>
+                  
+                    <button  id="scroll-top"></button>
+              </div>  
+              </div>
+          </div>
+          <div class="row">
+              <p>
+                  create and develop by me.
+              </p>
+          </div>
+    </footer>        
+  </body>
+</html>  
