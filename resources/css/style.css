@@ -403,7 +403,7 @@ footer p {
   border: none; 
   position: fixed;
   right: 30px;
-  bottom: 20px;
+  bottom: 60px;
   background: linear-gradient( #04ff68, rgb(230, 217, 35));
   padding: 20px;
   cursor: pointer;
